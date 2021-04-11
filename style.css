@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.outer{
+    width: 700px;
+    height: 300%;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0px 5px 8px rgb(87, 17, 17);
+    background-color:#777;
+    color: white;
+}
+.outer h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.emem-cv{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;  
+    text-align: left; 
+    line-height: 30px;
+    margin:  10px 0px;
+}
+
+.peace{
+    margin-top:  100px;
+}
+#love{
+    margin-top: 40px;
+    text-align: left;
+}
+
+#joy{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.border{
+    text-align: left;
+    width: 688px;
+    padding: 5px;
+    background-color:rgb(236 210 266);
+    border: 1px solid black;
+    font-weight: bold;
+    color:black;
+}
+.border p{
+    text-align: left;
+}
+ul{
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: left;
+    line-height: 33px;
+}
+@media(max-width:700px){
+.outer{
+    width: 400px;
+}
+/*.body{
+    width: 80% !important;
+    clear: both !important;
+    padding: 30px !important;
+    align-items:  center !important;
+}*/
+p{
+    font-size: 20px;
+}
+
+.border{
+    width: 97%;
+}
+
+.emem-cv{
+    width: 80%;
+}
+
+ul{
+    width: 80%;
+}
+} 
